@@ -6,27 +6,27 @@ import { Calendar, ArrowRight } from "lucide-react"
 
 const blogPosts = [
   {
-    title: "5 Daily Habits That Will Transform Your Happiness",
+    title: "Awaken the Purpose Within: Why High Achievers Are Seeking Something More",
     excerpt:
-      "Discover simple yet powerful daily practices that can significantly boost your overall well-being and life satisfaction.",
+      "Awaken the Purpose Within: Why High Achievers Are Seeking Something More.",
     image: "/placeholder.svg?height=200&width=300",
-    date: "December 15, 2024",
-    slug: "5-daily-habits-transform-happiness",
+    date: "June 15, 2025",
+    slug: "awaken-the-purpose",
   },
   {
-    title: "The Science Behind Positive Thinking",
+    title: "The Hidden Cost of Success",
     excerpt:
-      "Explore the research-backed benefits of positive thinking and learn how to rewire your brain for optimism.",
+      "The Hidden Cost of Success: What You’re Missing While Winning.",
     image: "/placeholder.svg?height=200&width=300",
-    date: "December 10, 2024",
-    slug: "science-behind-positive-thinking",
+    date: "May 10, 2025",
+    slug: "the-hidden-cost-of-success",
   },
   {
-    title: "Overcoming Life's Challenges with Resilience",
-    excerpt: "Learn practical strategies to build resilience and turn life's obstacles into opportunities for growth.",
+    title: "The Art of Inner Wealth",
+    excerpt: "The Art of Inner Wealth: How Emotional Clarity Leads to Better Leadership.",
     image: "/placeholder.svg?height=200&width=300",
-    date: "December 5, 2024",
-    slug: "overcoming-challenges-resilience",
+    date: "April 5, 2025",
+    slug: "the-art-of-inner-Wealth",
   },
 ]
 

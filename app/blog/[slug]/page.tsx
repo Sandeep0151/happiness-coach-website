@@ -6,48 +6,86 @@ import { notFound } from "next/navigation"
 
 // Mock blog data - in a real app, this would come from a CMS or database
 const blogPosts = {
-  "5-daily-habits-transform-happiness": {
-    title: "5 Daily Habits That Will Transform Your Happiness",
+  "awaken-the-purpose": {
+    title: "Awaken the Purpose Within: Why High Achievers Are Seeking Something More",
     excerpt:
-      "Discover simple yet powerful daily practices that can significantly boost your overall well-being and life satisfaction.",
+      "Awaken the Purpose Within: Why High Achievers Are Seeking Something More.",
     content: `
-      <p>Happiness isn't just a fleeting emotion—it's a skill that can be developed through consistent daily practices. After working with thousands of clients over the past decade, I've identified five key habits that consistently lead to lasting happiness and fulfillment.</p>
-
-      <h2>1. Morning Gratitude Practice</h2>
-      <p>Starting your day with gratitude sets a positive tone that ripples through everything you do. Research shows that people who practice gratitude regularly experience:</p>
+      <p>For many high-net-worth individuals, success has been a long, well-orchestrated journey. You’ve built empires, invested wisely, and accumulated wealth that most can only dream of. But if you’re honest with yourself, there’s a question that’s been echoing in the quieter moments:</p>
+      <br />
+      <h2><strong>Is this it?</strong></h2>
+      <p>At the heart of that question lies a deeper yearning; not for more assets, accolades, or acquisitions; but for <strong>alignment</strong>. A craving for <strong>meaning that outlives the numbers </strong>.</p>
+      <p>That’s where <i>Awaken the Purpose Within</i> steps in.</p>
+      <br />
+      
+      <h2><strong>The New Currency of Fulfillment</strong></h2>
+      
+      <p>We live in a time where the old playbook; earn, grow, scale, retire no longer guarantees peace. In fact, it often leaves a trail of emotional burnout and relational disconnection. Today’s HNW individuals are increasingly investing in something more elusive and profound: <strong>legacy through</strong> inner work.
+         This isn’t about philanthropy for PR. It’s about purpose that drives your actions when no one is watching. Purpose that makes your next chapter count just as much, if not more, than your last.</p>
+      
+      <br/>
+      <h2><strong>The Emotional Gap of Affluence</strong></h2>   
+      <p>It’s a paradox most won’t admit publicly: the more you accumulate, the harder it becomes to talk about discontent. You feel the weight of expectations—of boards, family, the image you’ve crafted. But underneath, there may be:</p>
+      
       <ul>
-        <li>25% increase in happiness levels</li>
-        <li>Better sleep quality</li>
-        <li>Stronger relationships</li>
-        <li>Improved physical health</li>
+        <li>1. A loss of why behind the what</li>
+        <li>2. A sense that your success is no longer evolving with you</li>
+        <li>3. A fatigue from “performing” strength while feeling emotionally unanchored</li>
       </ul>
-      <p><strong>How to implement:</strong> Each morning, write down three things you're grateful for. Be specific and focus on why you're grateful for each item.</p>
+      <p>The workshop Awaken the Purpose Within was born from these very truths.</p>
 
-      <h2>2. Mindful Movement</h2>
-      <p>Physical activity isn't just good for your body—it's essential for mental well-being. You don't need to run marathons; even 10 minutes of mindful movement can make a significant difference.</p>
-      <p>Whether it's yoga, walking, dancing, or stretching, the key is to be present and aware of your body's movements and sensations.</p>
+      <br/>
+      <h2><strong>What Makes This Workshop Different?</strong></h2>
+      <p>Led by Andrew Dietz, a coach trusted by leaders and visionaries, this isn’t a feel-good motivational weekend. It’s a deep, strategic immersion designed for:</p>
 
-      <h2>3. Connection Before Consumption</h2>
-      <p>Before reaching for your phone or diving into work, take a moment to connect with yourself or others. This could be:</p>
       <ul>
-        <li>A brief meditation or breathing exercise</li>
-        <li>A meaningful conversation with a loved one</li>
-        <li>Journaling about your intentions for the day</li>
-        <li>Simply sitting in silence for a few minutes</li>
+        <li>1. Successful individuals who want to shift from <strong>achievement to alignment</strong></li>
+        <li>2. Leaders ready to evolve into purpose-led contributors</li>
+        <li>3. Those seeking <strong>clarity without losing their edge</strong></li>
+        <li>4. Visionaries who want to do more than give back they want to<strong>build forward</strong></li>
       </ul>
 
-      <h2>4. Acts of Kindness</h2>
-      <p>Research consistently shows that helping others boosts our own happiness levels. The "helper's high" is a real phenomenon that releases endorphins and creates a sense of purpose.</p>
-      <p>Small acts count: holding a door, sending an encouraging text, or simply listening to someone who needs to be heard.</p>
+      <br/>
+      <h2><strong>The Core Pillars of the Workshop</strong></h2>
+      <h2><strong>Reconnecting with Your Inner Compass</strong></h2>
 
-      <h2>5. Evening Reflection</h2>
-      <p>End your day by reflecting on what went well. This practice helps rewire your brain to notice positive experiences and builds resilience for challenges.</p>
-      <p>Ask yourself: What am I proud of today? What did I learn? How did I grow?</p>
+      <p>Strip away the noise. What values did you start with that still matter? Which ones have shifted? This isn’t a coaching cliche. It’s an excavation of your emotional foundation.</p>
+   
+      <h2><strong>Purpose Beyond Performance</strong></h2>
+      <p>Learn how to move from transactional success to transformational impact. Discover how your skills and influence can serve something bigger than you without draining you.</p>
 
-      <h2>Making It Stick</h2>
-      <p>The key to building these habits is to start small and be consistent. Choose one habit to focus on for the first week, then gradually add others. Remember, progress over perfection is the goal.</p>
+      <h2><strong>Emotional Intelligence as a Power Tool</strong></h2>
+      <p>Many think EQ is about being “soft.” At this level, it’s about precision. Learning to listen differently, lead differently, and connect more deeply with yourself and others.</p>
 
-      <p>If you're ready to dive deeper into transforming your happiness, I invite you to join one of our upcoming webinars where we'll explore these concepts in greater detail and provide you with personalized strategies for implementation.</p>
+
+      <h2><strong>Legacy by Design, Not Default</strong></h2>
+      <p>What does legacy really mean when wealth is already secured? For some, it’s about a foundation. For others, it’s about healing generational patterns. You’ll define yours—clearly, unapologetically.</p>
+
+
+      <h2><strong>Who Is This For?</strong></h2>
+      <p>This experience is intentionally exclusive—not to create status, but to ensure depth. Attendees are entrepreneurs, investors, C-suite leaders, creatives, and change-makers who have “won the game,” but now want to redefine what winning means.
+        They’re not here for fluff. They’re here to break patterns that no longer serve them, and design a life that mirrors their current values.</p>
+      
+      <h2><strong>Realignment is the New Growth</strong></h2>
+      <p>This isn’t about abandoning ambition. It’s about refining it. In fact, the most powerful outcomes often come after we recalibrate. Post-workshop, many attendees report:</p>
+      <ul>
+       <li>1. Renewed clarity in business and life decisions<li>
+       <li>2. Improved emotional and relational awareness<li>
+       <li>3. A surge in meaningful action that aligns with their bigger vision<li>
+       <li>4. Deeper fulfillment—not just success<li>
+      </ul>
+
+      <h2><strong>Purpose Is Contagious</strong></h2>
+      <p>When leaders wake up to their own alignment, the ripple effect is enormous. Teams shift. Families change. Cultures evolve. Communities grow. You don’t have to be a guru or a monk to inspire change just someone willing to come back to yourself.</p>
+      
+      <h2><strong>Are You Ready?</strong></h2>
+      <p>If you’ve been feeling the pull toward something deeper... if you’ve achieved much but still feel unfinished... if you know there’s a “next level” that doesn’t live on a spreadsheet.</p>
+      <br/>
+      <p>Then it’s time.</p>
+      <br/>
+      <p><strong>Awaken the Purpose Within</strong> isn’t just a workshop. It’s a turning point.</p>
+      <br/>
+      <p>Apply now or request a private invite. This is your next chapter. Let’s make it count</p>
     `,
     image: "/placeholder.svg?height=400&width=800&text=Happy+Morning+Routine",
     author: "Dr. Sarah Johnson",
@@ -57,144 +95,293 @@ const blogPosts = {
     likes: 127,
     comments: 23,
   },
-  "science-behind-positive-thinking": {
-    title: "The Science Behind Positive Thinking",
+  "the-hidden-cost-of-success": {
+    title: "The Hidden Cost of Success: What You’re Missing While Winning",
     excerpt:
-      "Explore the research-backed benefits of positive thinking and learn how to rewire your brain for optimism.",
+      "The Hidden Cost of Success: What You’re Missing While Winning.",
     content: `
-      <p>For decades, positive thinking was dismissed as mere wishful thinking. Today, neuroscience and psychology research reveal that optimism isn't just feel-good fluff—it's a powerful tool that literally rewires your brain for better outcomes.</p>
+      <p>
+        For years, society has applauded the late nights, the fast deals, the “always on” hustle.
+        You’ve followed the path. You’ve built a thriving business, perhaps even a few. Your LinkedIn
+        says “Founder,” your family is proud, your calendar is full.
+      </p>
 
-      <h2>The Neuroscience of Optimism</h2>
-      <p>When we engage in positive thinking, several remarkable changes occur in our brains:</p>
+      <p>And yet...</p>
+
+      <p>
+        There’s a creeping silence in between the wins. A quiet ache that no one sees. A disconnect
+        between what you do and how you feel doing it.
+      </p>
+
+      <p>You’re productive—but are you present? You’re successful—but are you satisfied?</p>
+      <br/>
+      <h2><strong>Burnout That Wears a Suit</strong></h2>
+
+      <p>
+        Not all burnout looks like collapse. Sometimes it looks like achievement. You’re still
+        delivering, still closing deals, still scaling. But you’ve become a machine. A reliable
+        one—but a machine, nonetheless.
+      </p>
+
+      <p>That’s the hidden cost.</p>
+
+      <p>The cost of losing yourself while building a life that everyone else celebrates.</p>
+
+      <p>What’s missing isn’t another trophy. It’s alignment. Clarity. Wholeness.</p>
+      <br/>
+      <h2><strong>How Did We Get Here?</strong></h2>
+
+      <p>
+        In a world that rewards speed, success becomes synonymous with output. More hours, more
+        hustle, more control. But humans weren’t designed to function like spreadsheets.
+      </p>
+
+      <p>And yet, somewhere along the way, we began to:</p>
+
       <ul>
-        <li><strong>Neuroplasticity activation:</strong> Positive thoughts create new neural pathways</li>
-        <li><strong>Prefrontal cortex strengthening:</strong> Better decision-making and emotional regulation</li>
-        <li><strong>Stress hormone reduction:</strong> Lower cortisol levels lead to better health</li>
-        <li><strong>Dopamine release:</strong> Natural motivation and reward system activation</li>
+        <li>1. Celebrate exhaustion like it’s a badge of honor</li>
+        <li>2. Measure worth through productivity</li>
+        <li>3. Avoid emotional check-ins because they “don’t scale”</li>
       </ul>
 
-      <h2>Research Findings</h2>
-      <p>Dr. Martin Seligman's groundbreaking research at the University of Pennsylvania found that optimists:</p>
+      <p>The result? A generation of high-functioning achievers who are emotionally undernourished.</p>
+      <br/>
+      <h2><strong>What’s at Stake?</strong></h2>
+
+      <p>Ignoring the emotional cost of success comes at a price. You may recognize it as:</p>
+
       <ul>
-        <li>Live 7-10 years longer than pessimists</li>
-        <li>Have 50% lower risk of heart disease</li>
-        <li>Experience better immune function</li>
-        <li>Achieve higher levels of success in career and relationships</li>
+        <li>✅ Chronic dissatisfaction, even after big wins</li>
+        <li>✅ A short fuse in relationships</li>
+        <li>✅ A lack of inspiration despite opportunities</li>
+        <li>✅ Low-grade anxiety that follows you everywhere</li>
+        <li>✅ A life that looks great on paper—but feels robotic</li>
       </ul>
 
-      <h2>The Broaden-and-Build Theory</h2>
-      <p>Psychologist Barbara Fredrickson's research shows that positive emotions don't just feel good—they broaden our awareness and build our psychological resources:</p>
+      <p>
+        When the outer world thrives and the inner world dims, something’s off. And deep down, you
+        know it.
+      </p>
+      <br/>
+      <h2><strong>Success vs. Fulfillment</strong></h2>
+
+      <p>Let’s be clear: Success is not the enemy. But fulfillment isn’t its guaranteed byproduct.</p>
+
+      <p>Success is a milestone. Fulfillment is a state of being.</p>
+
+      <p>
+        You can have the car, the clients, the cash—and still feel like something’s missing. Because
+        fulfillment requires a connection to your why. And for many high-performers, that why got
+        buried somewhere between quarterly goals and inbox zero.
+      </p>
+      <br/>
+      <h2><strong>What Needs to Change?</strong></h2>
+
+      <p>What if success didn’t require sacrifice? What if thriving externally could coexist with feeling whole internally?</p>
+
+      <p>That shift begins with awareness.</p>
+
       <ul>
-        <li><strong>Broaden:</strong> Positive emotions expand our perception and open us to new possibilities</li>
-        <li><strong>Build:</strong> They help us develop lasting personal resources like resilience, creativity, and social connections</li>
+        <li>🧠 The awareness to pause and reflect</li>
+        <li>🧭 The awareness to question what really matters</li>
+        <li>❤️ The awareness to feel instead of just perform</li>
       </ul>
 
-      <h2>Practical Applications</h2>
-      <p>Understanding the science is just the beginning. Here's how to apply these findings:</p>
+      <p>These aren’t weaknesses. They’re human recalibrations.</p>
+      <br/>
+      <h2>Tools for Inner Reconnection</h2>
 
-      <h3>1. Cognitive Reframing</h3>
-      <p>Challenge negative thoughts by asking: "Is this thought helpful? What evidence supports or contradicts it? How would I advise a friend in this situation?"</p>
-
-      <h3>2. Visualization Techniques</h3>
-      <p>Spend 5-10 minutes daily visualizing positive outcomes. Your brain can't distinguish between vividly imagined experiences and real ones.</p>
-
-      <h3>3. Positive Affirmations</h3>
-      <p>Use evidence-based affirmations that feel authentic to you. Instead of "I am perfect," try "I am learning and growing every day."</p>
-
-      <h2>The Balance Factor</h2>
-      <p>It's important to note that healthy optimism isn't about ignoring reality or suppressing negative emotions. It's about:</p>
+      <p>
+        Reclaiming your inner self doesn’t mean abandoning ambition. It means anchoring it. Here are
+        small but profound starting points:
+      </p>
+      <br/>
+      <h3><strong>Ask Better Questions</strong></h3>
       <ul>
-        <li>Acknowledging challenges while focusing on solutions</li>
-        <li>Learning from setbacks without dwelling on them</li>
-        <li>Maintaining hope while taking practical action</li>
+        <li>Instead of “What’s next?”, ask “What matters now?”</li>
+        <li>Instead of “How do I scale?”, ask “Why do I want to?”</li>
       </ul>
+      <br/>
+      <h3><strong>Audit Your Energy, Not Just Your Time</strong></h3>
+      <p>
+        Time management is easy. But energy alignment—knowing what fills vs. drains you—is the real
+        unlock.
+      </p>
+      <br/>
+      <h3><strong>Create White Space</strong></h3>
+      <p>
+        Not for more productivity, but for presence. A morning walk without AirPods. A conversation
+        without checking your phone.
+      </p>
+      <br/>
+      <h3><strong>Seek Mentorship Beyond Business</strong></h3>
+      <p>
+        Find guides or coaches who speak to your whole self, not just your career goals. Emotional
+        mastery is a leadership skill.
+      </p>
+      <br/>
+      <h2><strong>You Don’t Need a Crisis to Course-Correct</strong></h2>
 
-      <p>Ready to harness the power of positive thinking in your own life? Join our next webinar where we'll dive deeper into practical techniques for rewiring your brain for optimism and success.</p>
+      <p>
+        Too often, change comes after breakdowns—burnout, health scares, or broken relationships.
+        But you don’t have to wait for that. You can make small, intentional shifts now.
+      </p>
+
+      <p>Pause.<br />Reconnect.<br />Redefine your definition of “winning.”</p>
+
+      <p>Because what’s the point of success if you’re not there to enjoy it?</p>
     `,
-    image: "/placeholder.svg?height=400&width=800&text=Brain+Positive+Thinking",
+    image: "/placeholder.svg?height=400&width=800&text=Mountain+Climbing+Resilience",
     author: "Dr. Sarah Johnson",
-    date: "December 10, 2024",
-    readTime: "10 min read",
-    tags: ["Psychology", "Neuroscience", "Positive Thinking", "Research"],
-    likes: 89,
-    comments: 15,
+    date: "December 5, 2024",
+    readTime: "12 min read",
+    tags: ["Resilience", "Personal Growth", "Mental Health", "Coping Strategies"],
+    likes: 156,
+    comments: 31,
   },
-  "overcoming-challenges-resilience": {
-    title: "Overcoming Life's Challenges with Resilience",
-    excerpt: "Learn practical strategies to build resilience and turn life's obstacles into opportunities for growth.",
-    content: `
-      <p>Life inevitably presents us with challenges, setbacks, and unexpected turns. The difference between those who thrive and those who merely survive lies in one crucial quality: resilience. This isn't just about bouncing back—it's about bouncing forward, stronger and wiser than before.</p>
 
-      <h2>Understanding Resilience</h2>
-      <p>Resilience isn't a trait you're born with or without. It's a skill that can be developed through practice and intentional effort. Research shows that resilient people share certain characteristics:</p>
+  "the-art-of-inner-Wealth": {
+    title: "The Art of Inner Wealth: How Emotional Clarity Leads to Better Leadership",
+    excerpt:
+      "The Art of Inner Wealth: How Emotional Clarity Leads to Better Leadership.",
+    content:`
+
+        <p>
+        There’s a type of wealth that doesn’t show up on your balance sheet—but transforms
+        everything around you. It’s called inner wealth.
+      </p>
+
+      <p>
+        You’ve already mastered external success. You’ve learned how to manage teams, build assets,
+        scale companies. But what about managing your inner state?
+      </p>
+
+      <p>
+        The truth is, emotional clarity isn’t a “nice to have.” It’s a power multiplier. Especially
+        for leaders.
+      </p>
+
+      <br />
+      <h2><strong>What is Inner Wealth?</strong></h2>
+
+      <p>
+        Inner wealth is the ability to lead with presence, think with clarity, and act from
+        alignment. It’s the calm confidence that doesn’t waver under pressure. It’s the resilience to
+        bounce back—not just externally but emotionally.
+      </p>
+
+      <p>It’s the invisible currency behind exceptional leadership.</p>
+
+      <br />
+      <h2><strong>Why Most Leaders Miss It</strong></h2>
+
+      <p>
+        We’re trained to optimize everything—KPIs, systems, capital. But rarely are we taught how to
+        optimize our inner operating system.
+      </p>
+
+      <p>So leaders:</p>
+
       <ul>
-        <li>They view challenges as opportunities for growth</li>
-        <li>They maintain perspective during difficult times</li>
-        <li>They have strong support networks</li>
-        <li>They practice self-compassion</li>
-        <li>They focus on what they can control</li>
+        <li>Burn out while looking composed</li>
+        <li>Micro-manage out of hidden fear</li>
+        <li>Disconnect emotionally to maintain control</li>
+        <li>Numb themselves with distraction instead of facing internal noise</li>
       </ul>
 
-      <h2>The Resilience Toolkit</h2>
-      <p>Here are evidence-based strategies to build your resilience muscle:</p>
+      <p>They lead empires… but haven’t made peace with themselves.</p>
 
-      <h3>1. Develop a Growth Mindset</h3>
-      <p>Carol Dweck's research shows that people with a growth mindset—those who believe abilities can be developed—are more resilient in the face of challenges.</p>
-      <p><strong>Practice:</strong> When facing a setback, ask "What can I learn from this?" instead of "Why me?"</p>
+      <br />
+      <h2><strong>Emotional Clarity = Strategic Advantage</strong></h2>
 
-      <h3>2. Build Your Support Network</h3>
-      <p>Strong relationships are the foundation of resilience. Having people who believe in you and support you makes all the difference.</p>
-      <p><strong>Action steps:</strong></p>
+      <p>
+        Let’s break the myth: Emotional awareness isn’t about being “soft.” It’s about being sharp
+        without being reactive.
+      </p>
+
+      <p>The most effective leaders today:</p>
+
       <ul>
-        <li>Reach out to one person each week</li>
-        <li>Join communities aligned with your interests</li>
-        <li>Be the support you wish to receive</li>
+        <li>✅ Stay grounded when stakes are high</li>
+        <li>✅ Make cleaner decisions with less noise</li>
+        <li>✅ Inspire trust—not just compliance</li>
+        <li>✅ Listen between the lines</li>
+        <li>✅ Build cultures of authenticity, not just performance</li>
       </ul>
 
-      <h3>3. Practice Emotional Regulation</h3>
-      <p>Resilient people don't avoid difficult emotions—they learn to navigate them skillfully.</p>
-      <p><strong>Techniques:</strong></p>
+      <p>And all of that stems from mastering inner clarity.</p>
+
+      <br />
+      <h2><strong>How to Build Inner Wealth (Without Burning Incense)</strong></h2>
+
+      <p>
+        No, this isn’t about meditating in a cave. Inner wealth can be practical. Here’s how to
+        cultivate it:
+      </p>
+
+      <h3>Emotional Labeling</h3>
+      <p>
+        Name what you feel. “I’m frustrated because I feel out of control.” Naming disarms shame and
+        reactivates logic.
+      </p>
+
+      <h3>Resilience Reps</h3>
+      <p>
+        Track moments when you wanted to react—but chose reflection. These are your emotional
+        muscles growing.
+      </p>
+
+      <h3>Stillness Practice</h3>
+      <p>
+        10 minutes a day. No inputs. Just sitting with yourself. Think of it like “debugging” your
+        brain.
+      </p>
+
+      <h3>Leadership Journaling</h3>
+      <p>
+        Not “Dear diary.” More like: “What triggered me today? What do I need to hear right now?”
+      </p>
+
+      <h3>Clarity Sessions</h3>
+      <p>
+        Set a recurring time each week for big-picture questions: What am I avoiding? What feels
+        misaligned? What’s calling me forward?
+      </p>
+
+      <br />
+      <h2><strong>From Managing to Leading</strong></h2>
+
+      <p>When you lead from inner clarity:</p>
+
       <ul>
-        <li>Deep breathing exercises</li>
-        <li>Mindfulness meditation</li>
-        <li>Journaling about your feelings</li>
-        <li>Physical exercise to process emotions</li>
+        <li>1. Your words carry more weight</li>
+        <li>2. Your presence calms rooms</li>
+        <li>3. Your decisions reflect long-term vision, not short-term noise</li>
+        <li>4. You stop reacting and start responding with intention</li>
       </ul>
 
-      <h3>4. Focus on Your Circle of Control</h3>
-      <p>Stephen Covey's concept of the Circle of Control reminds us to focus our energy on what we can influence rather than what we cannot.</p>
+      <p>
+        That’s the difference between being a manager of people and a leader of transformation.
+      </p>
 
-      <h2>The Post-Traumatic Growth Model</h2>
-      <p>Psychologists Richard Tedeschi and Lawrence Calhoun discovered that many people don't just recover from trauma—they experience post-traumatic growth in five key areas:</p>
-      <ul>
-        <li>Appreciation of life</li>
-        <li>Relating to others</li>
-        <li>Personal strength awareness</li>
-        <li>New possibilities</li>
-        <li>Spiritual development</li>
-      </ul>
+      <br />
+      <h2><strong>Inner Wealth Scales Everything</strong></h2>
 
-      <h2>Building Daily Resilience</h2>
-      <p>Resilience isn't just for major crises—it's built through daily practices:</p>
-      <ul>
-        <li><strong>Morning intention setting:</strong> Start each day with purpose</li>
-        <li><strong>Stress inoculation:</strong> Gradually expose yourself to manageable challenges</li>
-        <li><strong>Reflection practice:</strong> End each day by noting what you handled well</li>
-        <li><strong>Self-care rituals:</strong> Maintain your physical and emotional well-being</li>
-      </ul>
+      <p>Here’s the final truth: You are your biggest asset.</p>
 
-      <h2>When to Seek Support</h2>
-      <p>Building resilience doesn't mean going it alone. Sometimes the most resilient thing you can do is ask for help. Consider professional support when:</p>
-      <ul>
-        <li>Challenges feel overwhelming for extended periods</li>
-        <li>You're using unhealthy coping mechanisms</li>
-        <li>Relationships are suffering significantly</li>
-        <li>You're experiencing symptoms of depression or anxiety</li>
-      </ul>
+      <p>
+        And when you invest in inner wealth, everything else—strategy, execution, culture—gets
+        sharper, faster, and more aligned.
+      </p>
 
-      <p>Remember, seeking help is a sign of strength, not weakness. It's an investment in your future resilience and well-being.</p>
+      <p>So the next time you plan your next big hire or acquisition, ask yourself:</p>
 
-      <p>If you're ready to build your resilience toolkit with personalized strategies and community support, I invite you to join our upcoming resilience workshop. Together, we'll transform your relationship with challenges and unlock your potential for growth.</p>
+      <p><em>When was the last time I invested in my emotional clarity?</em></p>
+
+      <p>
+        Because no matter how much you build, the quality of your leadership depends on what’s
+        happening inside you.
+      </p>
     `,
     image: "/placeholder.svg?height=400&width=800&text=Mountain+Climbing+Resilience",
     author: "Dr. Sarah Johnson",
@@ -222,7 +409,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     <main className="pt-16">
       {/* Hero Section */}
       <section className="py-16 bg-gradient-to-r from-[#191970] to-[#2a2a8a] text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href="/blog" className="inline-flex items-center text-blue-200 hover:text-white mb-6 transition-colors">
             <ArrowLeft size={20} className="mr-2" />
             Back to Blog
@@ -261,7 +448,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
       {/* Article Content */}
       <article className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
             {/* Main Content */}
             <div className="lg:col-span-3">
